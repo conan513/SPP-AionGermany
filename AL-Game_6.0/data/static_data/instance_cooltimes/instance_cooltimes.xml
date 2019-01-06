@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- parsed by phpTools from Aion Germany Group (Mariella) at 2018-10-05 10:22 -->
+<instance_cooltimes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="instance_cooltimes.xsd">
+    <!-- Indratu Fortress -->
+    <instance_cooltime race="ELYOS" worldId="310090000" id="1">
+        <type>WEEKLY</type>
+        <typevalue>Wed</typevalue>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>36</enter_min_level_light>
+        <enter_min_level_dark>36</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>3</maxcount>
+    </instance_cooltime>
+    <!-- Fire Temple -->
+    <instance_cooltime race="PC_ALL" worldId="320100000" id="3">
+        <type>DAILY</type>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>6</max_member_light>
+        <max_member_dark>6</max_member_dark>
+        <enter_min_level_light>28</enter_min_level_light>
+        <enter_min_level_dark>28</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Aetherogenetics Lab -->
+    <instance_cooltime race="ELYOS" worldId="310050000" id="4">
+        <type>WEEKLY</type>
+        <typevalue>Wed</typevalue>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>18</enter_min_level_light>
+        <enter_min_level_dark>18</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>3</maxcount>
+    </instance_cooltime>
+    <!-- Alquimia Research Center -->
+    <instance_cooltime race="ASMODIANS" worldId="320110000" id="5">
+        <type>WEEKLY</type>
+        <typevalue>Wed</typevalue>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>18</enter_min_level_light>
+        <enter_min_level_dark>18</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>3</maxcount>
+    </instance_cooltime>
+    <!-- Aerdina -->
+    <instance_cooltime race="ELYOS" worldId="310030000" id="20">
+        <type>RELATIVE</type>
+        <ent_cool_time>0</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>15</enter_min_level_light>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Geranaia -->
+    <instance_cooltime race="ELYOS" worldId="310040000" id="21">
+        <type>RELATIVE</type>
+        <ent_cool_time>0</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>35</enter_min_level_light>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Bregirun -->
+    <instance_cooltime race="ASMODIANS" worldId="320030000" id="22">
+        <type>RELATIVE</type>
+        <ent_cool_time>0</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_dark>14</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Nidalber -->
+    <instance_cooltime race="ASMODIANS" worldId="320040000" id="23">
+        <type>RELATIVE</type>
+        <ent_cool_time>0</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_dark>34</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Lower Udas Temple -->
+    <instance_cooltime race="PC_ALL" worldId="300160000" id="27">
+        <type>WEEKLY</type>
+        <typevalue>Wed</typevalue>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>52</enter_min_level_light>
+        <enter_min_level_dark>52</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>3</maxcount>
+    </instance_cooltime>
+    <!-- Beshmundir Temple -->
+    <instance_cooltime race="PC_ALL" worldId="300170000" id="28">
+        <type>DAILY</type>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>6</max_member_light>
+        <max_member_dark>6</max_member_dark>
+        <enter_min_level_light>55</enter_min_level_light>
+        <enter_min_level_dark>55</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Taloc's Hollow -->
+    <instance_cooltime race="PC_ALL" worldId="300190000" id="29">
+        <type>WEEKLY</type>
+        <typevalue>Wed</typevalue>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>42</enter_min_level_light>
+        <enter_min_level_dark>42</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>3</maxcount>
+    </instance_cooltime>
+    <!-- Karamatis -->
+    <instance_cooltime race="ELYOS" worldId="310010000" id="30">
+        <type>RELATIVE</type>
+        <ent_cool_time>0</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>1</enter_min_level_light>
+        <enter_min_level_dark>1</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Karamatis -->
+    <instance_cooltime race="ELYOS" worldId="310020000" id="31">
+        <type>RELATIVE</type>
+        <ent_cool_time>0</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>1</enter_min_level_light>
+        <enter_min_level_dark>1</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Karamatis -->
+    <instance_cooltime race="ELYOS" worldId="310120000" id="32">
+        <type>RELATIVE</type>
+        <ent_cool_time>0</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>1</enter_min_level_light>
+        <enter_min_level_dark>1</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Ataxiar -->
+    <instance_cooltime race="ASMODIANS" worldId="320010000" id="33">
+        <type>RELATIVE</type>
+        <ent_cool_time>0</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>1</enter_min_level_light>
+        <enter_min_level_dark>1</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Ataxiar -->
+    <instance_cooltime race="ASMODIANS" worldId="320020000" id="34">
+        <type>RELATIVE</type>
+        <ent_cool_time>0</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>1</enter_min_level_light>
+        <enter_min_level_dark>1</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Ataxiar -->
+    <instance_cooltime race="ASMODIANS" worldId="320140000" id="35">
+        <type>RELATIVE</type>
+        <ent_cool_time>0</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>1</enter_min_level_light>
+        <enter_min_level_dark>1</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Space of Destiny -->
+    <instance_cooltime race="ASMODIANS" worldId="320070000" id="42">
+        <type>RELATIVE</type>
+        <ent_cool_time>0</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>1</enter_min_level_light>
+        <enter_min_level_dark>1</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Kromede's Trial -->
+    <instance_cooltime race="PC_ALL" worldId="300230000" id="45">
+        <type>WEEKLY</type>
+        <typevalue>Wed</typevalue>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>23</enter_min_level_light>
+        <enter_min_level_dark>23</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>3</maxcount>
+    </instance_cooltime>
+    <!-- Haramel -->
+    <instance_cooltime race="PC_ALL" worldId="300200000" id="46">
+        <type>WEEKLY</type>
+        <typevalue>Wed</typevalue>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>6</enter_min_level_light>
+        <enter_min_level_dark>6</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>3</maxcount>
+    </instance_cooltime>
+    <!-- Rentus Base -->
+    <instance_cooltime race="PC_ALL" worldId="300280000" id="49">
+        <type>DAILY</type>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>6</max_member_light>
+        <max_member_dark>6</max_member_dark>
+        <enter_min_level_light>60</enter_min_level_light>
+        <enter_min_level_dark>60</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Esoterrace -->
+    <instance_cooltime race="PC_ALL" worldId="300250000" id="51">
+        <type>DAILY</type>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>6</max_member_light>
+        <max_member_dark>6</max_member_dark>
+        <enter_min_level_light>47</enter_min_level_light>
+        <enter_min_level_dark>47</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Oriel -->
+    <instance_cooltime race="ELYOS" worldId="720010000" id="58">
+        <type>RELATIVE</type>
+        <ent_cool_time>0</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>1</enter_min_level_light>
+        <enter_min_level_dark>1</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Pernon -->
+    <instance_cooltime race="ASMODIANS" worldId="730010000" id="59">
+        <type>RELATIVE</type>
+        <ent_cool_time>0</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>1</enter_min_level_light>
+        <enter_min_level_dark>1</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Arena of Discipline -->
+    <instance_cooltime race="PC_ALL" worldId="300360000" id="62">
+        <type>WEEKLY</type>
+        <typevalue>Mon</typevalue>
+        <ent_cool_time>100</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>2</max_member_light>
+        <max_member_dark>2</max_member_dark>
+        <enter_min_level_light>76</enter_min_level_light>
+        <enter_min_level_dark>76</enter_min_level_dark>
+        <can_enter_mentor>false</can_enter_mentor>
+        <maxcount>10</maxcount>
+    </instance_cooltime>
+    <!-- Arena of Cooperation -->
+    <instance_cooltime race="PC_ALL" worldId="300450000" id="74">
+        <type>WEEKLY</type>
+        <typevalue>Mon</typevalue>
+        <ent_cool_time>100</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>6</max_member_light>
+        <max_member_dark>6</max_member_dark>
+        <enter_min_level_light>76</enter_min_level_light>
+        <enter_min_level_dark>76</enter_min_level_dark>
+        <can_enter_mentor>false</can_enter_mentor>
+        <maxcount>10</maxcount>
+    </instance_cooltime>
+    <!-- Tiamat's Fortress -->
+    <instance_cooltime race="PC_ALL" worldId="300510000" id="80">
+        <type>DAILY</type>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>6</max_member_light>
+        <max_member_dark>6</max_member_dark>
+        <enter_min_level_light>68</enter_min_level_light>
+        <enter_min_level_dark>68</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Tiamat's Hideout -->
+    <instance_cooltime race="PC_ALL" worldId="300520000" id="81">
+        <type>WEEKLY</type>
+        <typevalue>Wed</typevalue>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>57</enter_min_level_light>
+        <enter_min_level_dark>57</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>3</maxcount>
+    </instance_cooltime>
+    <!-- Runatorium -->
+    <instance_cooltime race="PC_ALL" worldId="301310000" id="125">
+        <type>DAILY</type>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>BATTLEFIELD</indun_type>
+        <max_member_light>6</max_member_light>
+        <max_member_dark>6</max_member_dark>
+        <enter_min_level_light>76</enter_min_level_light>
+        <enter_min_level_dark>76</enter_min_level_dark>
+        <can_enter_mentor>false</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Makarna of Bitterness -->
+    <instance_cooltime race="PC_ALL" worldId="301390000" id="135">
+        <type>WEEKLY</type>
+        <typevalue>Wed</typevalue>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>12</max_member_light>
+        <max_member_dark>12</max_member_dark>
+        <enter_min_level_light>80</enter_min_level_light>
+        <enter_min_level_dark>80</enter_min_level_dark>
+        <can_enter_mentor>false</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Trillonerk's Gold Vault -->
+    <instance_cooltime race="PC_ALL" worldId="301400000" id="136">
+        <type>RELATIVE</type>
+        <ent_cool_time>0</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>3</max_member_light>
+        <max_member_dark>3</max_member_dark>
+        <enter_min_level_light>40</enter_min_level_light>
+        <enter_min_level_dark>40</enter_min_level_dark>
+        <alarm_unit_score>50000</alarm_unit_score>
+        <can_enter_mentor>false</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Makarna -->
+    <instance_cooltime race="PC_ALL" worldId="301520000" id="143">
+        <type>WEEKLY</type>
+        <typevalue>Wed</typevalue>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>66</enter_min_level_light>
+        <enter_min_level_dark>66</enter_min_level_dark>
+        <alarm_unit_score>0</alarm_unit_score>
+        <can_enter_mentor>false</can_enter_mentor>
+        <maxcount>3</maxcount>
+    </instance_cooltime>
+    <!-- Garden of Knowledge -->
+    <instance_cooltime race="PC_ALL" worldId="301550000" id="146">
+        <type>WEEKLY</type>
+        <typevalue>Wed</typevalue>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>3</max_member_light>
+        <max_member_dark>3</max_member_dark>
+        <enter_min_level_light>78</enter_min_level_light>
+        <enter_min_level_dark>78</enter_min_level_dark>
+        <can_enter_mentor>false</can_enter_mentor>
+        <maxcount>4</maxcount>
+    </instance_cooltime>
+    <!-- Trillonerk's Gold Vault -->
+    <instance_cooltime race="PC_ALL" worldId="301590000" id="150">
+        <type>DAILY</type>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>3</max_member_light>
+        <max_member_dark>3</max_member_dark>
+        <enter_min_level_light>45</enter_min_level_light>
+        <enter_min_level_dark>45</enter_min_level_dark>
+        <alarm_unit_score>50000</alarm_unit_score>
+        <can_enter_mentor>false</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Hell Pass -->
+    <instance_cooltime race="PC_ALL" worldId="301630000" id="155">
+        <type>DAILY</type>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>10</enter_min_level_light>
+        <enter_min_level_dark>10</enter_min_level_dark>
+        <alarm_unit_score>50000</alarm_unit_score>
+        <can_enter_mentor>false</can_enter_mentor>
+        <maxcount>0</maxcount>
+    </instance_cooltime>
+    <!-- Mechanerk's Weapons Factory -->
+    <instance_cooltime race="PC_ALL" worldId="301640000" id="156">
+        <type>DAILY</type>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>10</enter_min_level_light>
+        <enter_min_level_dark>10</enter_min_level_dark>
+        <alarm_unit_score>50000</alarm_unit_score>
+        <can_enter_mentor>false</can_enter_mentor>
+        <maxcount>0</maxcount>
+    </instance_cooltime>
+    <!-- Ashunatal Dredgion -->
+    <instance_cooltime race="PC_ALL" worldId="301650000" id="157">
+        <type>DAILY</type>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>6</max_member_light>
+        <max_member_dark>6</max_member_dark>
+        <enter_min_level_light>76</enter_min_level_light>
+        <enter_min_level_dark>76</enter_min_level_dark>
+        <alarm_unit_score>500</alarm_unit_score>
+        <can_enter_mentor>false</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Fire Temple of Memory -->
+    <instance_cooltime race="PC_ALL" worldId="302000000" id="161">
+        <type>DAILY</type>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>3</max_member_light>
+        <max_member_dark>3</max_member_dark>
+        <enter_min_level_light>40</enter_min_level_light>
+        <enter_min_level_dark>40</enter_min_level_dark>
+        <alarm_unit_score>50000</alarm_unit_score>
+        <can_enter_mentor>false</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Kumuki Hideout -->
+    <instance_cooltime race="PC_ALL" worldId="302330000" id="168">
+        <type>DAILY</type>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>46</enter_min_level_light>
+        <enter_min_level_dark>46</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Narakkalli -->
+    <instance_cooltime race="PC_ALL" worldId="302340000" id="169">
+        <type>WEEKLY</type>
+        <typevalue>Wed</typevalue>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>6</max_member_light>
+        <max_member_dark>6</max_member_dark>
+        <enter_min_level_light>80</enter_min_level_light>
+        <enter_min_level_dark>80</enter_min_level_dark>
+        <can_enter_mentor>false</can_enter_mentor>
+        <maxcount>4</maxcount>
+    </instance_cooltime>
+    <!-- Neviwind Canyon -->
+    <instance_cooltime race="PC_ALL" worldId="302350000" id="170">
+        <type>DAILY</type>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>BATTLEFIELD</indun_type>
+        <max_member_light>96</max_member_light>
+        <max_member_dark>96</max_member_dark>
+        <enter_min_level_light>76</enter_min_level_light>
+        <enter_min_level_dark>76</enter_min_level_dark>
+        <alarm_unit_score>0</alarm_unit_score>
+        <can_enter_mentor>false</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Gold Arena (Lone Fighter) -->
+    <instance_cooltime race="PC_ALL" worldId="302360000" id="171">
+        <type>RELATIVE</type>
+        <ent_cool_time>0</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>96</max_member_light>
+        <max_member_dark>96</max_member_dark>
+        <enter_min_level_light>66</enter_min_level_light>
+        <enter_min_level_dark>66</enter_min_level_dark>
+        <can_enter_mentor>false</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Golden Crucible (Group Battle) -->
+    <instance_cooltime race="PC_ALL" worldId="302370000" id="172">
+        <type>RELATIVE</type>
+        <ent_cool_time>0</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>96</max_member_light>
+        <max_member_dark>96</max_member_dark>
+        <enter_min_level_light>66</enter_min_level_light>
+        <enter_min_level_dark>66</enter_min_level_dark>
+        <can_enter_mentor>false</can_enter_mentor>
+        <maxcount>2</maxcount>
+    </instance_cooltime>
+    <!-- Treasure Island of Courage -->
+    <instance_cooltime race="PC_ALL" worldId="301700000" id="178">
+        <type>DAILY</type>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>BATTLEFIELD</indun_type>
+        <max_member_light>3</max_member_light>
+        <max_member_dark>3</max_member_dark>
+        <enter_min_level_light>10</enter_min_level_light>
+        <enter_min_level_dark>10</enter_min_level_dark>
+        <alarm_unit_score>50000</alarm_unit_score>
+        <can_enter_mentor>false</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Holy Tower -->
+    <instance_cooltime race="ELYOS" worldId="310160000" id="180">
+        <type>WEEKLY</type>
+        <typevalue>Wed</typevalue>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>6</max_member_light>
+        <max_member_dark>6</max_member_dark>
+        <enter_min_level_light>80</enter_min_level_light>
+        <enter_min_level_dark>80</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>4</maxcount>
+    </instance_cooltime>
+    <!-- Mirash Refuge -->
+    <instance_cooltime race="PC_ALL" worldId="301720000" id="181">
+        <type>WEEKLY</type>
+        <typevalue>Wed</typevalue>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>76</enter_min_level_light>
+        <enter_min_level_dark>76</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>4</maxcount>
+    </instance_cooltime>
+    <!-- Holy Tower -->
+    <instance_cooltime race="ASMODIANS" worldId="320160000" id="182">
+        <type>WEEKLY</type>
+        <typevalue>Wed</typevalue>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>6</max_member_light>
+        <max_member_dark>6</max_member_dark>
+        <enter_min_level_light>80</enter_min_level_light>
+        <enter_min_level_dark>80</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>4</maxcount>
+    </instance_cooltime>
+    <!-- Sure Hell Pass -->
+    <instance_cooltime race="PC_ALL" worldId="301631000" id="183">
+        <type>DAILY</type>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>46</enter_min_level_light>
+        <enter_min_level_dark>46</enter_min_level_dark>
+        <alarm_unit_score>50000</alarm_unit_score>
+        <can_enter_mentor>false</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Dangerous Hell Pass -->
+    <instance_cooltime race="PC_ALL" worldId="301632000" id="184">
+        <type>DAILY</type>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>46</enter_min_level_light>
+        <enter_min_level_dark>46</enter_min_level_dark>
+        <alarm_unit_score>50000</alarm_unit_score>
+        <can_enter_mentor>false</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Prometun's Workshop -->
+    <instance_cooltime race="PC_ALL" worldId="302430000" id="185">
+        <type>WEEKLY</type>
+        <typevalue>Wed</typevalue>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>6</max_member_light>
+        <max_member_dark>6</max_member_dark>
+        <enter_min_level_light>80</enter_min_level_light>
+        <enter_min_level_dark>80</enter_min_level_dark>
+        <can_enter_mentor>false</can_enter_mentor>
+        <maxcount>4</maxcount>
+    </instance_cooltime>
+    <!-- Silentera Canyon -->
+    <instance_cooltime race="PC_ALL" worldId="302440000" id="186">
+        <type>RELATIVE</type>
+        <ent_cool_time>0</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>1</enter_min_level_light>
+        <enter_min_level_dark>1</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Bakarma Fortress -->
+    <instance_cooltime race="ASMODIANS" worldId="320170000" id="187">
+        <type>WEEKLY</type>
+        <typevalue>Wed</typevalue>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>36</enter_min_level_light>
+        <enter_min_level_dark>36</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>3</maxcount>
+    </instance_cooltime>
+    <!-- Tower of Challenge -->
+    <instance_cooltime race="PC_ALL" worldId="302450000" id="188">
+        <type>WEEKLY</type>
+        <typevalue>Wed</typevalue>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>76</enter_min_level_light>
+        <enter_min_level_dark>76</enter_min_level_dark>
+        <can_enter_mentor>false</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Kubrinerk's Cube Laboratory -->
+    <instance_cooltime race="PC_ALL" worldId="302460000" id="189">
+        <type>WEEKLY</type>
+        <typevalue>Wed</typevalue>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>80</enter_min_level_light>
+        <enter_min_level_dark>80</enter_min_level_dark>
+        <alarm_unit_score>50000</alarm_unit_score>
+        <can_enter_mentor>false</can_enter_mentor>
+        <maxcount>7</maxcount>
+    </instance_cooltime>
+    <!-- Sanctum Battlefield -->
+    <instance_cooltime race="PC_ALL" worldId="302470000" id="190">
+        <type>RELATIVE</type>
+        <ent_cool_time>0</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>74</enter_min_level_light>
+        <enter_min_level_dark>74</enter_min_level_dark>
+        <can_enter_mentor>false</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Pandaemonium Battlefield -->
+    <instance_cooltime race="PC_ALL" worldId="302480000" id="191">
+        <type>RELATIVE</type>
+        <ent_cool_time>0</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>74</enter_min_level_light>
+        <enter_min_level_dark>74</enter_min_level_dark>
+        <can_enter_mentor>false</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Mirash Refuge (Bonus) -->
+    <instance_cooltime race="PC_ALL" worldId="301730000" id="192">
+        <type>DAILY</type>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>1</max_member_light>
+        <max_member_dark>1</max_member_dark>
+        <enter_min_level_light>76</enter_min_level_light>
+        <enter_min_level_dark>76</enter_min_level_dark>
+        <can_enter_mentor>true</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+    <!-- Garden of Knowledge (Bonus) -->
+    <instance_cooltime race="PC_ALL" worldId="302490000" id="193">
+        <type>DAILY</type>
+        <ent_cool_time>900</ent_cool_time>
+        <indun_type>NORMAL</indun_type>
+        <max_member_light>3</max_member_light>
+        <max_member_dark>3</max_member_dark>
+        <enter_min_level_light>78</enter_min_level_light>
+        <enter_min_level_dark>78</enter_min_level_dark>
+        <can_enter_mentor>false</can_enter_mentor>
+        <maxcount>1</maxcount>
+    </instance_cooltime>
+</instance_cooltimes>

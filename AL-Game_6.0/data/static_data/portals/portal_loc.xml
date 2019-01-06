@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portal_locs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="portal_loc.xsd">
+    <!-- for example loc id  220030000 -> 2200300+ (remove last 00) -->
+
+    <!-- Haramel Teleports -->
+    <!-- Haramel - Entry -->
+    <portal_loc world_id="300200000" loc_id="3002000" x="178.70653" y="20.820198" z="144.22429" h="60"/>
+    <!-- Haramel - Tower Lift -->
+    <portal_loc world_id="300200000" loc_id="3002001" x="229.58084" y="213.63147" z="89.27873" h="0"/>
+    <!-- Haramel - Exit Asmo -->
+    <portal_loc world_id="220010000" loc_id="3002002" x="597.0" y="2482.0" z="279.125" h="14"/>
+    <!-- Haramel - Exit Elyos -->
+    <portal_loc world_id="210010000" loc_id="3002003" x="872.0" y="1188.0" z="111.5" h="0"/>
+
+    <!-- Lower Udas Teleports -->
+    <!-- Lower Udas - Entry -->
+    <portal_loc world_id="300160000" loc_id="3001600" x="1335.4287" y="779.879" z="111.76137" h="15"/>
+    <!-- Lower Udas - Teleport to Jodun Studio -->
+    <portal_loc world_id="300160000" loc_id="3001601" x="1083.428" y="1567.0413" z="149.23637" h="60"/>
+    <!-- Lower Udas - Teleport to Breeching Tunnel -->
+    <portal_loc world_id="300160000" loc_id="3001602" x="1256.2151" y="1022.0814" z="103.75904" h="90"/>
+    <!-- Lower Udas - Exit Asmo -->
+    <portal_loc world_id="220070000" loc_id="3001603" x="2254.2148" y="1732.2423" z="309.5974" h="68"/>
+    <!-- Lower Udas - Exit Elyos -->
+    <portal_loc world_id="210050000" loc_id="3001604" x="231.83824" y="1213.3438" z="273.27087" h="15"/>
+
+    <!-- Mirash Refuge Teleports -->
+    <!-- Mirash Refuge - Entry -->
+    <portal_loc world_id="301720000" loc_id="3017200" x="770.9567" y="831.987" z="520.6439" h="90"/>
+    <!-- Mirash Refuge - Exit Elyos -->
+    <portal_loc world_id="600200000" loc_id="3017201" x="1902.9199" y="723.98267" z="218.25" h="80"/>
+    <!-- Mirash Refuge - Exit Asmodians -->
+    <portal_loc world_id="600200000" loc_id="3017202" x="1739.1641" y="2344.1355" z="254.0" h="63"/>
+
+    <!-- Garden of Knowledge Teleports -->
+    <!-- Garden of Knowledge - Entry -->
+    <portal_loc world_id="301550000" loc_id="3015500" x="1484.535" y="780.51636" z="1035.2672" h="60"/>
+    <!-- Garden of Knowledge - First Boss Entry -->
+    <portal_loc world_id="301550000" loc_id="3015501" x="1180.7251" y="783.3264" z="505.0359" h="60"/>
+    <!-- Garden of Knowledge - First Boss Exit -->
+    <portal_loc world_id="301550000" loc_id="3015502" x="1101.9213" y="773.99915" z="1037.0392" h="60"/>
+    <!-- Garden of Knowledge - Second Boss Entry -->
+    <portal_loc world_id="301550000" loc_id="3015503" x="257.58896" y="1234.2119" z="825.32465" h="60"/>
+    <!-- Garden of Knowledge - Second Boss Exit -->
+    <portal_loc world_id="301550000" loc_id="3015504" x="406.30075" y="1358.163" z="997.63214" h="51"/>
+    <!-- Garden of Knowledge - End Boss Entry -->
+    <portal_loc world_id="301550000" loc_id="3015505" x="589.8855" y="551.92944" z="509.43018" h="75"/>
+    <!-- Garden of Knowledge - Exit Asmodians -->
+    <portal_loc world_id="600200000" loc_id="3015506" x="1408.9618" y="2200.617" z="224.75" h="91"/>
+    <!-- Garden of Knowledge - Exit Elyos -->
+    <portal_loc world_id="600200000" loc_id="3015507" x="1460.8947" y="926.34985" z="261.125" h="119"/>
+
+
+    <!-- Prometuns Workshop Teleports -->
+    <!-- Prometuns Workshop - Entry -->
+    <portal_loc world_id="302430000" loc_id="3024300" x="456.6875" y="805.88556" z="811.7392" h="0"/>
+    <!-- Prometuns Workshop - Grappling Hook -->
+    <portal_loc world_id="302430000" loc_id="3024301" x="898.68146" y="776.25995" z="758.0861" h="0"/>
+    <!-- Prometuns Workshop - Exit -->
+    <portal_loc world_id="600200000" loc_id="3024302" x="1192.1702" y="1506.3175" z="253.7151" h="58"/>
+
+    <!-- Elyos Scroll Teleports -->
+    <portal_loc world_id="110010000" loc_id="1100100" x="1364.5358" y="1513.5854" z="569.1747" h="60"/><!-- 6.x -->
+    <portal_loc world_id="110070000" loc_id="1100702" x="447.15598" y="252.14552" z="126.97166"/><!-- 6.x -->
+    <portal_loc world_id="210040000" loc_id="2100400" x="6470.466" y="306.9402" z="415.67706"/><!-- 6.x -->
+    <portal_loc world_id="210050000" loc_id="2100500" x="1384.3513" y="307.67648" z="588.8714" h="70"/><!-- 6.x -->
+    <portal_loc world_id="700010000" loc_id="7000101" x="1295.0674" y="1862.5887" z="97.635216" h="70"/><!-- 6.x -->
+    <portal_loc world_id="210070000" loc_id="2100700" x="2943.1846" y="851.70856" z="571.61444" h="75"/><!-- 6.x -->
+    <portal_loc world_id="600200000" loc_id="6002000" x="2688.5857" y="487.36588" z="323.3768" h="110"/><!-- 6.x -->
+    <!-- Asmodians Scroll Teleports -->
+	<portal_loc world_id="120010000" loc_id="1200100" x="1604.5464" y="1390.2196" z="193.12859"/><!-- 6.x -->
+    <portal_loc world_id="120080000" loc_id="1200800" x="549.4218" y="202.77597" z="93.479576"/><!-- 6.x -->
+    <portal_loc world_id="220040000" loc_id="2200400" x="320.3888" y="335.59973" z="229.59479"/><!-- 6.x -->
+    <portal_loc world_id="220070000" loc_id="2200700" x="1764.28" y="2911.25" z="554.7982" h="16"/><!-- 6.x -->
+    <portal_loc world_id="710010000" loc_id="7100100" x="1030.3135" y="1536.6667" z="97.99279"/><!-- 6.x -->
+    <portal_loc world_id="220080000" loc_id="2200800" x="429.85312" y="2235.262" z="219.94165" h="25"/><!-- 6.x -->
+    <portal_loc world_id="600200000" loc_id="6002001" x="2925.3015" y="2505.124" z="313.80035" h="90"/><!-- 6.x -->
+</portal_locs>
