@@ -24,13 +24,13 @@ import com.aionemu.gameserver.questEngine.model.QuestState;
 import com.aionemu.gameserver.questEngine.model.QuestStatus;
 
 /**
- * @author FrozenKiller
+ * @author QuestGenerator by Mariella
  */
-public class _60008PursuitoftheOdiumTransportTrack extends QuestHandler {
+public class _60008PursuitOfTheOdiumTransportTrack extends QuestHandler {
 
 	private final static int questId = 60008;
 
-	public _60008PursuitoftheOdiumTransportTrack() {
+	public _60008PursuitOfTheOdiumTransportTrack() {
 		super(questId);
 	}
 
@@ -45,7 +45,6 @@ public class _60008PursuitoftheOdiumTransportTrack extends QuestHandler {
 	@Override
 	public boolean onLvlUpEvent(QuestEnv env) {
 		return defaultOnLvlUpEvent(env, 60000, false);
-
 	}
 
 	@Override
@@ -54,27 +53,42 @@ public class _60008PursuitoftheOdiumTransportTrack extends QuestHandler {
 		QuestState qs = player.getQuestStateList().getQuestState(questId);
 		DialogAction dialog = env.getDialog();
 		int targetId = env.getTargetId();
+
 		if (qs == null) {
 			return false;
 		}
 
 		if (qs.getStatus() == QuestStatus.START) {
 			switch (targetId) {
-			case 820010:
-				if (dialog == DialogAction.USE_OBJECT) {
-					qs.setQuestVar(1);
-					updateQuestStatus(env);
-					return false;
+				case 820010: {
+					switch (dialog) {
+						// ToDo: check correct action for this npc
+						case USE_OBJECT: {
+							qs.setQuestVar(1);
+							updateQuestStatus(env);
+							return false;
+						}
+						default: 
+							break;
+					}
+					break;
 				}
-				break;
-			case 820011:
-				if (dialog == DialogAction.USE_OBJECT) {
-					qs.setQuestVar(2);
-					qs.setStatus(QuestStatus.REWARD);
-					updateQuestStatus(env);
-					return false;
+				case 820011: {
+					switch (dialog) {
+						// ToDo: check correct action for this npc
+						case USE_OBJECT: {
+							qs.setQuestVar(2);
+							qs.setStatus(QuestStatus.REWARD);
+							updateQuestStatus(env);
+							return false;
+						}
+						default: 
+							break;
+					}
+					break;
 				}
-				break;
+				default:
+					break;
 			}
 		} else if (qs.getStatus() == QuestStatus.REWARD) {
 			if (targetId == 203086) {
@@ -84,6 +98,7 @@ public class _60008PursuitoftheOdiumTransportTrack extends QuestHandler {
 				return sendQuestEndDialog(env);
 			}
 		}
+
 		return false;
 	}
 }
