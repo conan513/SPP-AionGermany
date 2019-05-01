@@ -6,7 +6,8 @@ TITLE %NAME%
 :start_database
 cls
 if not exist "%mainfolder%\Database\bin\mysqld.exe" goto install_database
-cd %mainfolder%\Database
+start import_updates.bat
+cd "%mainfolder%\Database"
 bin\mysqld --defaults-file=my-large.ini --console --standalone
 exit
 
