@@ -25,6 +25,8 @@ echo Downloading the latest update...
 echo.
 ..\git\cmd\git.exe pull https://github.com/conan513/SPP-AionGermany.git
 echo.
-echo Copy Launch_Servers.bat file...
+echo Copy main *.bat files...
 xcopy "%mainfolder%\%installpath%\Tools\Launch_Servers.bat" "%mainfolder%" /Y
+xcopy "%mainfolder%\%installpath%\Tools\Update.bat" "%mainfolder%" /Y
+xcopy "%mainfolder%\%installpath%\Tools\Update_fix_if_error.bat" "%mainfolder%" /Y
 pause
