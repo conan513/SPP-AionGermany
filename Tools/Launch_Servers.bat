@@ -2,7 +2,6 @@
 SET NAME=SPP-AionGermany
 TITLE %NAME%
 set mainfolder=%CD%
-set game_version=7.x
 
 :menu
 set installpath=SPP-AionGermany
@@ -13,18 +12,18 @@ echo # https://www.patreon.com/conan513                    #
 echo #######################################################
 echo.
 echo 1 - Start Aion 5.8 server (stable)
-echo 2 - Start Aion %game_version% server (work in progress)
+echo 2 - Start Aion 7.x server (work in progress)
 echo.
 set /P menu=Enter a number: 
 if "%menu%"=="1" (goto 5.8)
-if "%menu%"=="2" (goto %game_version%)
+if "%menu%"=="2" (goto 7.x)
 
 :5.8
 set worldserver=start_game_5.8.bat
 goto start_server
 
-:%game_version%
-set worldserver=start_game_%game_version%.bat
+:7.x
+set worldserver=start_game_7.x.bat
 goto start_server
 
 :start_server
