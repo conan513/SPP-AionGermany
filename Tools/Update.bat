@@ -32,4 +32,5 @@ xcopy "%mainfolder%\%installpath%\Tools\Update_fix_if_error.bat" "%mainfolder%" 
 echo.
 echo Launcher starting soon...
 ping -n 5 127.0.0.1>nul
-"%mainfolder%\Launch_servers.bat"
+cd "%mainfolder%"
+Launch_servers.bat
