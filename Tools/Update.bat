@@ -29,4 +29,7 @@ echo Copy main *.bat files...
 xcopy "%mainfolder%\%installpath%\Tools\Launch_Servers.bat" "%mainfolder%" /Y
 xcopy "%mainfolder%\%installpath%\Tools\Update.bat" "%mainfolder%" /Y
 xcopy "%mainfolder%\%installpath%\Tools\Update_fix_if_error.bat" "%mainfolder%" /Y
-pause
+echo.
+echo Launcher starting soon...
+ping -n 5 127.0.0.1>nul
+"%mainfolder%\Launch_servers.bat"
