@@ -3,6 +3,7 @@ AL-Chat/log
 AL-Chat\log\console.log
 AL-Game_5.8/cache
 AL-Game_5.8/log
-AL-Game_6.0/cache
-AL-Game_6.0/log
+AL-Game_7.x/cache
+AL-Game_7.x/log
 AL-Login/log
+*.orig
