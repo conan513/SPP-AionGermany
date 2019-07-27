@@ -1,9 +1,9 @@
 Database
 AL-Chat/log
 AL-Chat\log\console.log
-AL-Game_5.8/cache
-AL-Game_5.8/log
-AL-Game_7.x/cache
-AL-Game_7.x/log
+AL-Game5/cache
+AL-Game5/log
+AL-Game7/cache
+AL-Game7/log
 AL-Login/log
 *.orig
