@@ -19,11 +19,11 @@ if "%menu%"=="1" (goto 5.8)
 if "%menu%"=="2" (goto 7.x)
 
 :5.8
-set worldserver=start_game_5.8.bat
+set worldserver=start_game5.bat
 goto start_server
 
 :7.x
-set worldserver=start_game_7.x.bat
+set worldserver=start_game7.bat
 goto start_server
 
 :start_server
